@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
+This is an example of a header and nav bar in an angular app.
+
+To use it:
+- Import `NavigationComponent` into your `AppModule`
+- Reference `ml-navigation` (usually from `app.component.html`).
+- Add the padding sizes to your `styles.scss`. These can be used elsewhere to keep your padding sizes consistent by importing the file into other scss files.
+
+### Navigation Component Parameters: 
+| name  | description |
+| ----- | ----------- |
+| title | The title to display |
+| noNav | Allows the side nav to be disabled and hides the burger menu button |
+
+
+---
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
