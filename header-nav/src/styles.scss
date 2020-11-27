@@ -1,0 +1,13 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+$smallPadding: 8px;
+$medPadding: $smallPadding * 2;
+$largePadding: $smallPadding * 3
