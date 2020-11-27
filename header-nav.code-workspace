@@ -1,0 +1,74 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": false,
+		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+		"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+		"html.format.endWithNewline": true,
+		"html.format.maxPreserveNewLines": 1,
+		"cSpell.words": [
+			"browserslist",
+		],
+		"beautify.options": {
+			"indent_with_tabs": true,
+			"indent_char": "tab"
+		},
+		"todo-tree.general.tags": [
+			"TODO",
+			"HACK",
+			"FIXME",
+			"BUG",
+			"API_HACK",
+			"TRANSLATION"
+		],
+		"todo-tree.tree.showScanModeButton": false,
+		"todo-tree.highlights.defaultHighlight": {
+			"type": "line"
+		},
+		"todo-tree.highlights.customHighlight": {
+	
+			"FIXME": {
+				"icon": "alert",
+				"foreground": "#FFFF7F"
+			},
+			"BUG": {
+				"icon": "bug",
+				"foreground": "#FF4261"
+			},
+			"TODO": {
+				"icon": "checklist",
+				"foreground": "#FF964C"
+			},
+			"API_HACK": {
+				"icon": "server",
+				"foreground": "#7d53a3"
+			},
+			"TRANSLATION": {
+				"icon": "text-size",
+				"foreground": "grey"
+			}
+		},
+		"diffEditor.ignoreTrimWhitespace": false,
+		"[scss]": {
+			"editor.defaultFormatter": "michelemelluso.code-beautifier"
+		},
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.vscode-typescript-tslint-plugin",
+			"michelemelluso.code-beautifier",
+			"msjsdiag.debugger-for-chrome",
+			"johnpapa.angular2",
+			"infinity1207.angular2-switcher",
+			"gruntfuggly.todo-tree",
+			"mrmlnc.vscode-scss",
+			"streetsidesoftware.code-spell-checker",
+			"angular.ng-template"
+		]
+	}
+}

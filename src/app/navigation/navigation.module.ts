@@ -7,7 +7,6 @@ import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppRoutingModule } from 'src/app/app-routing.module';
-import { ErrorComponent } from './error/error.component';
 import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation.component';
 
@@ -15,7 +14,6 @@ import { NavigationComponent } from './navigation.component';
 	declarations: [
 		NavigationComponent,
 		HeaderComponent,
-		ErrorComponent
 	],
 	imports: [
 		CommonModule,

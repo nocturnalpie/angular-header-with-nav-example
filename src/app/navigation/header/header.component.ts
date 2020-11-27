@@ -2,15 +2,15 @@ import { Component, Input } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 
 @Component({
-	selector: 'app-header',
+	selector: 'ml-header',
 	templateUrl: './header.component.html',
 	styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
 
-	@Input() noNav: boolean;
-	@Input() drawer: MatSidenav;
 	@Input() title: string;
+	@Input() drawer: MatSidenav;
+	@Input() noNav: boolean;
 
 	get showNav(): boolean {
 		if (typeof this.noNav !== 'boolean') {
