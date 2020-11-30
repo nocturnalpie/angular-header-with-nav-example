@@ -8,9 +8,9 @@ import { MatSidenav } from '@angular/material/sidenav';
 })
 export class HeaderComponent {
 
-	@Input() title: string;
-	@Input() drawer: MatSidenav;
-	@Input() noNav: boolean;
+	@Input() title!: string;
+	@Input() drawer!: MatSidenav;
+	@Input() noNav!: boolean;
 
 	get showNav(): boolean {
 		if (typeof this.noNav !== 'boolean') {

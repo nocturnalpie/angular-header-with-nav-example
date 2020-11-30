@@ -10,10 +10,10 @@ import { map } from 'rxjs/operators';
 })
 export class NavigationComponent implements OnInit {
 
-	@Input() noNav: boolean;
-	@Input() title: string;
+	@Input() noNav!: boolean;
+	@Input() title!: string;
 
-	isHandset$: Observable<boolean>;
+	isHandset$!: Observable<boolean>;
 
 	constructor(
 		private readonly breakpointObserver: BreakpointObserver
