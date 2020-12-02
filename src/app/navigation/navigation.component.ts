@@ -10,7 +10,6 @@ import { map } from 'rxjs/operators';
 })
 export class NavigationComponent implements OnInit {
 
-	@Input() noNav!: boolean;
 	@Input() title!: string;
 
 	isHandset$!: Observable<boolean>;

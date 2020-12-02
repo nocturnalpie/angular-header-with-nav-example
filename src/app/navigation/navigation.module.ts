@@ -18,7 +18,6 @@ import { NavigationComponent } from './navigation.component';
 	imports: [
 		CommonModule,
 		AppRoutingModule,
-		LayoutModule,
 		MatToolbarModule,
 		MatButtonModule,
 		MatSidenavModule,

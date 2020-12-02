@@ -10,14 +10,6 @@ export class HeaderComponent {
 
 	@Input() title!: string;
 	@Input() drawer!: MatSidenav;
-	@Input() noNav!: boolean;
-
-	get showNav(): boolean {
-		if (typeof this.noNav !== 'boolean') {
-			return this.noNav === undefined;
-		}
-		return !this.noNav;
-	}
 
 	constructor() { }
 
