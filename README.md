@@ -5,15 +5,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This is an example of a header and nav bar in an angular app.
 
 To use it:
+- Add the `layout.scss` into your project. These can be used elsewhere to keep your padding sizes consistent by importing the file into other scss files.
+- Add the whole `navigation` directory to your project
 - Import `NavigationComponent` into your `AppModule`
 - Reference `ml-navigation` (usually from `app.component.html`).
-- Add the padding sizes to your `styles.scss`. These can be used elsewhere to keep your padding sizes consistent by importing the file into other scss files.
 
 ### Navigation Component Parameters: 
 | name  | description |
 | ----- | ----------- |
 | title | The title to display |
-| noNav | Allows the side nav to be disabled and hides the burger menu button |
 
 
 ---
