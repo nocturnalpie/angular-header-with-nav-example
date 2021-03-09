@@ -7,10 +7,9 @@ Responsive elements:
 - The header shrinks as the screen size gets smaller.
 - The menu button is 48x48px to meet the material design touch target size.
 
-<div style="display:flex; gap: 10px; flex-wrap: wrap; justify-content: space-evenly">
-	<img src=./images/large_screen_size.png style="height:300px">
-	<img src=./images/small_screen_size.png style="height:300px">
-</div>
+<img src=./images/large_screen_size.png height="300">
+
+<img src=./images/small_screen_size.png height="300">
 
 ---
 
