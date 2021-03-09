@@ -1,8 +1,15 @@
 # HeaderNav
 
-This is an example of a header and nav bar in an angular app.
+This is an example of a responsive header and nav bar in an angular app.
 
-To use this in another project:
+Responsive elements:
+- The sidebar is changed from side mode to over mode as the screen size gets smaller.
+- The header shrinks as the screen size gets smaller.
+- The menu button is 48x48px to meet the material design touch target size.
+
+---
+
+## Using this in another project
 - Add the `layout.scss` into your project. These can be used elsewhere to keep your padding sizes consistent by importing the file into other scss files.
 - Add the whole `navigation` directory to your project
 - Import `NavigationComponent` into your `AppModule`
