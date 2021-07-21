@@ -1,7 +1,4 @@
-$smallPadding: 8px;
-$medPadding: $smallPadding * 2;
-$largePadding: $smallPadding * 3;
-
+@import '../../layout.scss';
 
 :host {
   display: grid;
