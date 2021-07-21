@@ -10,16 +10,16 @@ import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation.component';
 
 @NgModule({
-  declarations: [NavigationComponent, HeaderComponent],
-  imports: [
-    CommonModule,
-    AppRoutingModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule
-  ],
-  exports: [NavigationComponent]
+	declarations: [NavigationComponent, HeaderComponent],
+	imports: [
+		CommonModule,
+		AppRoutingModule,
+		MatToolbarModule,
+		MatButtonModule,
+		MatSidenavModule,
+		MatIconModule,
+		MatListModule
+	],
+	exports: [NavigationComponent]
 })
-export class NavigationModule {}
+export class NavigationModule { }
